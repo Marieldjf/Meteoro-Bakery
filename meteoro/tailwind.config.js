@@ -17,6 +17,7 @@ module.exports = {
           hueso: {
             DEFAULT: '#F6F6F6',
           },
+          narapalido: '#FFE6CA',
         },
       },
     },
