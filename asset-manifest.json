@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/meteoro-bakery/static/css/main.1d4bd426.chunk.css",
+    "main.js": "/meteoro-bakery/static/js/main.33a398e7.chunk.js",
+    "main.js.map": "/meteoro-bakery/static/js/main.33a398e7.chunk.js.map",
+    "runtime-main.js": "/meteoro-bakery/static/js/runtime-main.0d4919fd.js",
+    "runtime-main.js.map": "/meteoro-bakery/static/js/runtime-main.0d4919fd.js.map",
+    "static/js/2.a903c927.chunk.js": "/meteoro-bakery/static/js/2.a903c927.chunk.js",
+    "static/js/2.a903c927.chunk.js.map": "/meteoro-bakery/static/js/2.a903c927.chunk.js.map",
+    "static/js/3.035d9b1b.chunk.js": "/meteoro-bakery/static/js/3.035d9b1b.chunk.js",
+    "static/js/3.035d9b1b.chunk.js.map": "/meteoro-bakery/static/js/3.035d9b1b.chunk.js.map",
+    "index.html": "/meteoro-bakery/index.html",
+    "static/css/main.1d4bd426.chunk.css.map": "/meteoro-bakery/static/css/main.1d4bd426.chunk.css.map",
+    "static/js/2.a903c927.chunk.js.LICENSE.txt": "/meteoro-bakery/static/js/2.a903c927.chunk.js.LICENSE.txt",
+    "static/media/browniebox.f6f2d331.png": "/meteoro-bakery/static/media/browniebox.f6f2d331.png",
+    "static/media/browniecup.958e3261.png": "/meteoro-bakery/static/media/browniecup.958e3261.png",
+    "static/media/carrotcake.880b3bfc.png": "/meteoro-bakery/static/media/carrotcake.880b3bfc.png",
+    "static/media/carrotcakepiece.3cef3fc4.png": "/meteoro-bakery/static/media/carrotcakepiece.3cef3fc4.png",
+    "static/media/classicookie.6031c2bf.png": "/meteoro-bakery/static/media/classicookie.6031c2bf.png",
+    "static/media/cookiemixed.14ad6ee2.png": "/meteoro-bakery/static/media/cookiemixed.14ad6ee2.png",
+    "static/media/meteorologo.54c905af.png": "/meteoro-bakery/static/media/meteorologo.54c905af.png",
+    "static/media/whitecookie.d8d25d97.png": "/meteoro-bakery/static/media/whitecookie.d8d25d97.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0d4919fd.js",
+    "static/js/2.a903c927.chunk.js",
+    "static/css/main.1d4bd426.chunk.css",
+    "static/js/main.33a398e7.chunk.js"
+  ]
+}
