@@ -9,8 +9,7 @@ import cookiemixed from "../images/cookiemixed.png";
 import classicookie from "../images/classicookie.png";
 import { Link } from 'react-router-dom';
 
-
-const SideMenu = () => {
+const SideMenuCakes = () => {
     return (
 <div className="h-screen flex bg-white">
 
@@ -18,23 +17,24 @@ const SideMenu = () => {
 	<aside className="flex flex-col items-center bg-hueso text-gray-700 h-full">
 		<ul>
 			<li className="hover:bg-narapalido">
-				<a href="." id="sidemenu" className="h-16 px-6 flex justify-center pt-2 items-center w-full focus:text-orange-500">INICIO	
-				</a>
+			<Link to="/" id="sidemenu" className="h-16 px-6 flex flex justify-center items-center w-full focus:text-orange-500">
+					INICIO
+				</Link>
 			</li>
 
-			<li className="hover:bg-narapalido">
+			<li className="hover:bg-narapalido bg-narapalido font-medium">
 			<Link to="/cakes" id="sidemenu" className="h-16 px-6 flex justify-center items-center w-full focus:text-orange-500">
 				CAKES
 				</Link>
 			</li>
 
 			<li className="hover:bg-narapalido">
-				<Link to="/cookies" id="sidemenu" className="h-16 px-6 flex justify-center items-center w-full focus:text-orange-500">
+            <Link to="/cookies" id="sidemenu" className="h-16 px-6 flex justify-center items-center w-full focus:text-orange-500">
 				COOKIES
 				</Link>
 			</li>
 
-			<li className="hover:bg-narapalido">
+			<li className="hover:bg-narapalido ">
 				<Link to="/brownies" id="sidemenu" className="h-16 px-6 flex flex justify-center items-center w-full focus:text-orange-500">
 					BROWNIES
 				</Link>
@@ -77,26 +77,16 @@ const SideMenu = () => {
             	</div>
 
 				<div class="flex items-start justify-start pt-12 pl-6">
-					<text  className="text-4xl text-gunmetal" id="tituloItem">Best Sellers
+					<text  className="text-4xl text-gunmetal" id="tituloItem">Cakes
 					</text>
             	</div>
             </div>
 
-            <div class="flex items-center justify-center p-4 mt-12 rounded-md">
+            <div class="flex items-start justify-start p-4 mt-12 ml-32 rounded-md">
             
 			{/*cards*/}
 	<div className="flex-row md:flex pt-2">
-		<div className="bg-hueso md:h-80 md:w-64 md:rounded-2xl md:pt-28 md:ml-0 md:mt-32 md:mr-8 h-64 w-56 pt-24 mt-20 ml-0">
-		<img className="md:w-52 w-36 h-52 ml-10 -mt-52 md:h-64 md:-mb-0 -mb-2 md:-mt-64 md:flex md:center md:ml-8" src={browniepic}/>
-			<h1 className="md:text-2xl text-lg text-left ml-6 text-gunmetal cursor-default" id="tituloItem">Brownie Box</h1>
-			<h2 className="md:text-lg text-sm text-left ml-6 text-naranja cursor-default" id="precioArticulo">RD$350.00</h2>
-			<p className="md:mt-4 mt-2 text-sm md:text-lg text-center cursor-default pb-4" id="textodesc">Fudgy Brownie con chispas de chocolate en molde 16’x16’.</p>
-			<div className="md:w-64 md:h-14 md:mt-7 mt-12 w-56 bg-gray-700 rounded-bl-2xl rounded-br-2xl">
-			<a className="md:text-lg text-sm mt-6 px-8 py-3 flex text-center text-white cursor-pointer" id="carrito">AGREGAR AL CARRITO</a>
-			</div>
-		</div>
-
-		<div className="bg-hueso md:h-80 md:w-64 md:rounded-2xl md:pt-28 md:ml-12 md:mt-32 md:mr-8 h-64 w-56 pt-24 mt-20 ml-6">
+	<div className="bg-hueso md:h-80 md:w-64 md:rounded-2xl md:pt-28 md:ml-12 md:mt-32 md:mr-8 h-64 w-56 pt-24 mt-20 ml-6">
 		<img className="md:w-52 w-36 h-52 ml-10 -mt-52 md:h-64 md:-mb-2 -mb-2 md:-mt-64 md:flex md:center md:ml-8" src={carrocake}/>
 			<h1 className="md:text-2xl text-lg text-left ml-6 text-gunmetal cursor-default" id="tituloItem">Carrot Cake</h1>
 			<h2 className="md:text-lg text-sm text-left ml-6 text-naranja cursor-default" id="precioArticulo">RD$350.00</h2>
@@ -115,42 +105,13 @@ const SideMenu = () => {
 			<a className="md:text-lg text-sm mt-6 px-8 py-3 flex text-center text-white cursor-pointer" id="carrito">AGREGAR AL CARRITO</a>
 			</div>
 		</div>
-
-		<div className="bg-hueso md:h-80 md:w-64 md:rounded-2xl md:pt-28 md:ml-12 md:mt-32 md:mr-8 h-64 w-56 pt-24 mt-20 ml-6">
-		<img className="md:w-40  w-36 h-52 ml-10 -mt-52 md:h-44 md:mb-10 -mb-2 md:-mt-56 md:flex md:center md:ml-10" src={classicookie}/>
-			<h1 className="md:text-2xl text-lg text-left ml-6 text-gunmetal cursor-default" id="tituloItem">Classic Cookie</h1>
-			<h2 className="md:text-lg text-sm text-left ml-6 text-naranja cursor-default" id="precioArticulo">RD$50.00 c/u</h2>
-			<p className="md:mt-4 mt-2 text-sm md:text-lg cursor-default" id="textodesc">Galleta crocante de vainilla con chispas de chocolate.</p>
-			<div className="md:w-64 md:h-14 md:mt-20 mt-12 w-56 bg-gray-700 rounded-bl-2xl rounded-br-2xl">
-			<a className="md:text-lg text-sm mt-6 px-8 py-3 flex text-center text-white cursor-pointer" id="carrito">AGREGAR AL CARRITO</a>
-			</div>
-		</div>
 	</div>
-
-
-
-
-
-            </div>
-        
-        
+        </div>
         </main>
-        
-
-
-		{/*Texto*/}
-
-
-		
-
-
-		
-
-
 </div>
 </div>
 
-    )
+    );
 }
 
-export default SideMenu
+export default SideMenuCakes;

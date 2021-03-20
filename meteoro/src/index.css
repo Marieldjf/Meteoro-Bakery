@@ -2,8 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 
 #sidemenu {
     font-family: 'Poppins', sans-serif;
+}
+
+#carrito {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+#tituloItem {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+#precioArticulo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+#titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+#parrafointro {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+#textodesc {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
 }
