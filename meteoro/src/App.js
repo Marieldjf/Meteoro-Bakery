@@ -1,12 +1,10 @@
 import './App.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Footer from './components/Footer';
-import Navbar from './components/Navbar';
-import SideMenu from './components/SideMenu';
 import cookies from './pages/cookies';
 import home from './components/home';
 import brownies from './pages/brownies';
 import cakes from './pages/cakes';
+import checkout from './pages/checkout';
 
 
 function App() {
@@ -22,6 +20,7 @@ function App() {
         <Route path='/cakes' component={cakes}/>
         <Route path='/brownies' component={brownies}/>
         <Route path='/cookies' component={cookies} />
+        <Route path='/checkout' component={checkout}/>
       </Switch>
       
       

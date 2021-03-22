@@ -19,6 +19,12 @@
     font-weight: 600;
 }
 
+
+#tituloItem2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
 #precioArticulo {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
