@@ -1,12 +1,8 @@
 import React from 'react'
 import '../index.css';
-import browniepic from "../images/browniebox.png";
 import carrocake from "../images/carrotcake.png";
 import carrotcakepiece from "../images/carrotcakepiece.png";
-import browniecup from "../images/browniecup.png";
-import whitecookie from "../images/whitecookie.png";
-import cookiemixed from "../images/cookiemixed.png";
-import classicookie from "../images/classicookie.png";
+
 import { Link } from 'react-router-dom';
 
 const SideMenuCakes = () => {

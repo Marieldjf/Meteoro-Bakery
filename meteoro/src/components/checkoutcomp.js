@@ -2,11 +2,8 @@ import React from 'react';
 import rightArrow from '../images/right-arrow.png';
 import browniepic from "../images/browniebox.png";
 import carrocake from "../images/carrotcake.png";
-import carrotcakepiece from "../images/carrotcakepiece.png";
-import browniecup from "../images/browniecup.png";
-import whitecookie from "../images/whitecookie.png";
 import cookiemixed from "../images/cookiemixed.png";
-import classicookie from "../images/classicookie.png";
+
 import closex from "../images/close.png";
 
 const Checkoutcomp = () => {
