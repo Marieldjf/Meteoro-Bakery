@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Meteoro-bakery/static/css/main.1d4bd426.chunk.css",
-    "main.js": "/Meteoro-bakery/static/js/main.33a398e7.chunk.js",
-    "main.js.map": "/Meteoro-bakery/static/js/main.33a398e7.chunk.js.map",
+    "main.css": "/Meteoro-bakery/static/css/main.2ca4bf8b.chunk.css",
+    "main.js": "/Meteoro-bakery/static/js/main.0b92689b.chunk.js",
+    "main.js.map": "/Meteoro-bakery/static/js/main.0b92689b.chunk.js.map",
     "runtime-main.js": "/Meteoro-bakery/static/js/runtime-main.17534ddd.js",
     "runtime-main.js.map": "/Meteoro-bakery/static/js/runtime-main.17534ddd.js.map",
     "static/js/2.a903c927.chunk.js": "/Meteoro-bakery/static/js/2.a903c927.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.035d9b1b.chunk.js": "/Meteoro-bakery/static/js/3.035d9b1b.chunk.js",
     "static/js/3.035d9b1b.chunk.js.map": "/Meteoro-bakery/static/js/3.035d9b1b.chunk.js.map",
     "index.html": "/Meteoro-bakery/index.html",
-    "static/css/main.1d4bd426.chunk.css.map": "/Meteoro-bakery/static/css/main.1d4bd426.chunk.css.map",
+    "static/css/main.2ca4bf8b.chunk.css.map": "/Meteoro-bakery/static/css/main.2ca4bf8b.chunk.css.map",
     "static/js/2.a903c927.chunk.js.LICENSE.txt": "/Meteoro-bakery/static/js/2.a903c927.chunk.js.LICENSE.txt",
     "static/media/browniebox.f6f2d331.png": "/Meteoro-bakery/static/media/browniebox.f6f2d331.png",
     "static/media/browniecup.958e3261.png": "/Meteoro-bakery/static/media/browniecup.958e3261.png",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.17534ddd.js",
     "static/js/2.a903c927.chunk.js",
-    "static/css/main.1d4bd426.chunk.css",
-    "static/js/main.33a398e7.chunk.js"
+    "static/css/main.2ca4bf8b.chunk.css",
+    "static/js/main.0b92689b.chunk.js"
   ]
 }
